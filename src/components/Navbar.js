@@ -44,9 +44,9 @@ const Navbar = (props) => {
                         </nav>
                     </div>
                     <div class="d-flex gap-2 iconmar" >
-                         <Link to="/upload" className='iconcolr'><i class="fa-solid fa-circle-user fa-lg  "></i></Link> 
-                          <Link to="/upload" className='iconcolr'><i class="fa-solid fa-magnifying-glass fa-lg"></i></Link> 
-                         <Link to="/upload" className='iconcolr'> <i class="fa-solid fa-cart-shopping fa-lg "></i></Link> 
+                         <Link to="/register" className='iconcolr'><i class="fa-solid fa-circle-user fa-lg  "></i></Link> 
+                          <Link to="#" className='iconcolr'><i class="fa-solid fa-magnifying-glass fa-lg"></i></Link> 
+                         <Link to="#" className='iconcolr'> <i class="fa-solid fa-cart-shopping fa-lg "></i></Link> 
                           <Link to="/upload" className='iconcolr'><i class="fa-regular fa-address-book fa-lg"></i></Link>
                     </div>
                   </div>  
