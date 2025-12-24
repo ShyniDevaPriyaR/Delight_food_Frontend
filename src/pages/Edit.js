@@ -31,7 +31,7 @@ const Edit = () => {
 
         console.log(update);
 
-        fetch(`http://localhost:6002/edit/${id}`, {
+        fetch(`https://delight-food-backend.onrender.com/edit/${id}`, {
             method: "PATCH",
             headers: {
                 'content-type': 'application/json'

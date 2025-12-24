@@ -9,14 +9,14 @@ const GetProduct = () => {
   const [ProductItems, setProductsItems] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:6002/get`)
+    fetch(`https://delight-food-backend.onrender.com/get`)
       .then((res) => res.json())
       .then((data) =>
         setProductsItems(data))
   }, [])
 
   const DeleteItems = (id) => {
-    fetch(`http://localhost:6002/deleteone/${id}`, {
+    fetch(`https://delight-food-backend.onrender.com/deleteone/${id}`, {
       method: "DELETE",
     })
       .then((data) => {

@@ -25,7 +25,7 @@ const Upload = () => {
             const foods = { name, img, feedback, rating, price, quantity };
             // console.log(foods,"foods in object ");
 
-            fetch('http://localhost:6002/uploaditem', {
+            fetch('https://delight-food-backend.onrender.com/uploaditem', {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'
