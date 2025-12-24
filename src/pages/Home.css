@@ -1,0 +1,97 @@
+/* phase2 */
+
+.cardiconitem{
+    width: 100px;
+}
+.cardicontext{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/* phase3 */
+
+.carditem1{
+    width: 18rem;
+}
+.carditembody1{
+    background-color: #f3f2fc;
+    height: 200px;
+}
+.carditemtitle{
+    font-size: 16px;
+}
+.cardstaricon1{
+    width: 20px;
+}
+.price1{
+    color: rgb(241, 60, 99);
+    font-weight: bolder;
+}
+.noprice1{
+    color: gray;
+    font-weight: bolder;
+}
+.addtocartbtn1{
+    color: aliceblue;
+    background-color: rgb(227, 57, 114);
+}
+
+/* phase5 */
+
+.carditembody2{
+    background-color: #f3f2fc;
+    height: 150px;
+}
+
+/* pickle */
+
+.pickleimg4{
+     height: 293px;
+}
+
+/* upload */
+
+.uploadinput{
+    background-color: #eb7cd3;
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+}
+.uptitle{
+    color: #ce3972;
+    font-family: "Delius", cursive;
+}
+.upmar1{
+    margin-left: 20px;
+}
+.upmar2{
+    margin-left: 40px;
+}
+.upmar3{
+    margin-left: 50px;
+}
+
+/* getproduct */
+
+.tablefont{
+    font-family: "Playfair Display", serif;
+    color: #cf845f;
+}
+.getprobtn{
+    height: 35px;
+    width: 65px;
+}
+.editicon{
+    color: #ba0f0f;
+}
+
+/* Registration */
+
+.regtitle{
+     font-family: "Delius", cursive;
+     color: #dc24d2;
+}
+.regsubtitle{
+    font-family: cursive;
+    
+}
