@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
 
-            <footer class="foot2  ">
+            {/* <footer class="foot2  ">
                 <div class="container ">
                     <div class="row ">
                         <div class="col-lg-3  col-md-6 col-sm-6 mt-5">
@@ -80,9 +80,59 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
+
+             <footer className="foot2">
+        <div className="container">
+          <div className="row gy-4">
+            <div className="col-lg-3 col-md-6 col-sm-12 mt-4">
+              <img src={img1} alt="logo" className="footer-logo" />
+              <p className="mt-3 footer-text">
+                <strong>Delight Foods</strong> brings to you a collection of
+                carefully selected foods from India. In our passionate search
+                to offer food that is unique and full of flavor, we have ensured
+                you get only the best and most authentic regional food products.
+              </p>
+            </div>
+            <div className="col-lg-2 col-md-6 col-sm-6 mt-4">
+              <h5 className="widget-title">Quick Links</h5>
+              <ul className="list-unstyled footer-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Cancellation / Returns</a></li>
+                <li><a href="#">Bulk Order Form</a></li>
+              </ul>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-6 mt-4">
+              <h5 className="widget-title">Get in Touch</h5>
+              <p><strong>Customer Care:</strong></p>
+              <p>+91 88614 16154</p>
+              <p><strong>Email:</strong></p>
+              <p>support@delightfoods.com</p>
+            </div>
+            <div className="col-lg-2 col-md-6 col-sm-12 mt-4">
+              <h5 className="widget-title">Let's Connect</h5>
+              <ul className="d-flex gap-2 list-unstyled">
+                <li><a href="#" className="icon2"><i className="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#" className="icon2"><i className="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#" className="icon2"><i className="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#" className="icon2"><i className="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" className="icon2"><i className="fa-brands fa-amazon"></i></a></li>
+              </ul>
+            </div>
+            </div>
         </div>
+      </footer>
+      <div className="footer-bottom">
+        <p className="mb-0">
+          © 2025 Delight Foods. All rights reserved.
+        </p>
+      </div>
+    </div>
     )
 }
 

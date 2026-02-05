@@ -1,0 +1,62 @@
+.carditem1 {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carditem1:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.carditemtitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.price1 {
+  color: #d63384;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.noprice1 {
+  color: #999;
+}
+
+
+.qty-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ff69b4;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.qty-btn:hover {
+  background-color: #d63384;
+}
+
+.cartbutton {
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .carditemtitle {
+    font-size: 14px;
+  }
+
+  .price1 {
+    font-size: 16px;
+  }
+
+  .qty-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+}

@@ -14,7 +14,7 @@ const sweetdata = [
         quantity:1,
         img:img2,
         title:"Kaju Katli",
-        mewprice:"Rs.299.00",
+        newprice:"Rs.299.00",
         oldprice:"Rs.490.00"
     },
     {
@@ -22,7 +22,7 @@ const sweetdata = [
         quantity:1,
         img:img3,
         title:"Palm Candy Tal Mishri - 350gram",
-        mewprice:"Rs.289.00",
+        newprice:"Rs.289.00",
         oldprice:"Rs.299.00"
     },
     {
@@ -30,7 +30,7 @@ const sweetdata = [
         quantity:1,
         img:img4,
         title:"Khush Angoori Petha 350gram",
-        mewprice:"Rs.254.00",
+        newprice:"Rs.254.00",
         oldprice:"Rs.299.00"
     },
     {
@@ -38,7 +38,7 @@ const sweetdata = [
         quantity:1,
         img:img5,
         title:"Sugar Free Angoori Petha 350g",
-        mewprice:"Rs.449.00",
+        newprice:"Rs.449.00",
         oldprice:"Rs.599.00"
     },
     {
@@ -46,7 +46,7 @@ const sweetdata = [
         quantity:1,
         img:img6,
         title:"Dodha Barfi",
-        mewprice:"Rs.279.00",
+        newprice:"Rs.279.00",
         oldprice:"Rs.315.00"
     },
     {
@@ -54,7 +54,7 @@ const sweetdata = [
         quantity:1,
         img:img7,
         title:"Moti Choor Ladoo 400g",
-        mewprice:"Rs.399.00",
+        newprice:"Rs.399.00",
         oldprice:"Rs.449.00"
     },
     {
@@ -62,7 +62,7 @@ const sweetdata = [
         quantity:1,
         img:img8,
         title:"Jodhpuri",
-        mewprice:"Rs.498.00",
+        newprice:"Rs.498.00",
         oldprice:"Rs.499.00"
     },
     {
@@ -70,7 +70,7 @@ const sweetdata = [
         quantity:1,
         img: img9,
         title:"Amla Turmeric Kanji",
-        mewprice:"Rs.229.00",
+        newprice:"Rs.229.00",
         oldprice:"Rs.260.00"
     },
 ]

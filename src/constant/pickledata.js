@@ -1,6 +1,7 @@
 import img2 from "../images/tnm005.jpg"
 import img3 from "../images/Tomato-Thokku-Mylapore.jpg"
-import img4 from "../images/lahsun.jpg"
+// import img4 from "../images/lahsun.jpg"
+import img4 from "../images/replcepickle.jpg"
 import img5 from "../images/tnm024.jpg"
 import img6 from "../images/tnm001_3.jpg"
 import img7 from "../images/Lehsun-Chutney-300g.jpg"

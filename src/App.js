@@ -41,20 +41,16 @@ function App() {
       <BrowserRouter>
       <Navbar/>
         <Routes>
-          <Route path='/' element={
-            <ProtectedRoute>
-                 <Home />
-            </ProtectedRoute>
-           } />
-          <Route path='/sweets' element={<Sweets/>} />
-          <Route path='/snacks' element={<Snacks/>} />
-          <Route path='/pickle' element={<Pickle/>} />
-          <Route path='/masalas' element={<Masalas/>} />
-          <Route path='/mukhwas' element={<Mukhwas/>} />
-          <Route path='/rice' element={<Regionalrice/>} />
-          <Route path='/bakery' element={<Bakery/>} />
-          <Route path='/sharbats' element={<Sharbats/>} />
-          <Route path='/carts' element={<Carts/>} />
+          <Route path='/' element={<ProtectedRoute><Home /></ProtectedRoute>} />
+          <Route path='/sweets' element={<ProtectedRoute><Sweets/></ProtectedRoute>} />
+          <Route path='/snacks' element={<ProtectedRoute><Snacks/></ProtectedRoute>} />
+          <Route path='/pickle' element={<ProtectedRoute><Pickle/></ProtectedRoute>} />
+          <Route path='/masalas' element={<ProtectedRoute><Masalas/></ProtectedRoute>} />
+          <Route path='/mukhwas' element={<ProtectedRoute><Mukhwas/></ProtectedRoute>} />
+          <Route path='/rice' element={<ProtectedRoute><Regionalrice/></ProtectedRoute>} />
+          <Route path='/bakery' element={<ProtectedRoute><Bakery/></ProtectedRoute>} />
+          <Route path='/sharbats' element={<ProtectedRoute><Sharbats/></ProtectedRoute>} />
+          <Route path='/carts' element={<ProtectedRoute><Carts/></ProtectedRoute>} />
           <Route path='/upload' element={<Upload/>} />
           <Route path='/getproduct' element={<GetProduct/>} />
           <Route path='/edit/:id' element={<Edit/>}/>

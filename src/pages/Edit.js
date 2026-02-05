@@ -11,7 +11,7 @@ const Edit = () => {
 
     useEffect(() => {
 
-        fetch(`http://localhost:6002/getone/${id}`)
+        fetch(`https://delight-food-backend.onrender.com/getone/${id}`)
             .then((res) => res.json())
             .then((data) => setproductsItems(data))
     }, [])
